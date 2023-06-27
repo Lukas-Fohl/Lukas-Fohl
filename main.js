@@ -20,12 +20,12 @@ let Text1 = new text(
     false);
 
 let Text2 = new text(
+    "",
     "Nach  154 v. Chr. wurde die bereits bestehende Siedlungen aus griechischer Zeit von den Römern ausgebaut und erweitert welches eine 2. Siedlung namens Cemenelum hervorbrachte.  Dies Prägte das heutige Nizza erstmalig mit \„italienischem\“ Flair.",
     "",
-    "",
     "./Download2.jpeg",
-    true,
     false,
+    true,
     false);
 
 let Text3 = new text(
