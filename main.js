@@ -1,29 +1,55 @@
 class text{
-    constructor(text1, text2, text3, imgPath) {
+    constructor(text1, text2, text3, imgPath, isThere1, isThere2, isThere3) {
         this.text_1 = text1;
         this.text_2 = text2;
         this.text_3 = text3;
         this.img_path = imgPath;
+        this.isThere_1 = isThere1;
+        this.isThere_2 = isThere2;
+        this.isThere_3 = isThere3;
     }
 }
 
-let Text1 = new text("1...","...","...","./Download.jpeg");
-let Text2 = new text("2...","...","...","./Download2.jpeg");
-let Text3 = new text("3...","...","...","./Download.jpeg");
+let Text1 = new text(
+    "Es gibt keinen eindeutigen Zeitpunkt wann die Stadt als diese entstand da sie sich aus Teilesiedlungen Zusammensetzte. Die erste Siedlung wurde um 350 v. Chr. Von den Griechen erbaut und Níkaia genannt",
+    "",
+    "",
+    "./Download.jpeg",
+    true,
+    false,
+    false);
+
+let Text2 = new text(
+    "Nach  154 v. Chr. wurde die bereits bestehende Siedlungen aus griechischer Zeit von den Römern ausgebaut und erweitert welches eine 2. Siedlung namens Cemenelum hervorbrachte.  Dies Prägte das heutige Nizza erstmalig mit \„italienischem\“ Flair.",
+    "",
+    "",
+    "./Download2.jpeg",
+    true,
+    false,
+    false);
+
+let Text3 = new text(
+    "3...",
+    "...",
+    "...",
+    "./Download.jpeg",
+    true,
+    true,
+    true);
 
 function print(){
     console.log("test");
     setText(Text1);
 }
 
-function to704(){
+function to350(){
     animate(Text1);
-    btnColor("_704");
+    btnColor("_350");
 }
 
-function to1862(){
+function to154(){
     animate(Text2);
-    btnColor("_1862");
+    btnColor("_154");
 }
 
 function to1944(){
@@ -47,7 +73,25 @@ function setText(textClass){
     e2 = document.getElementById("infoText2");
     e3 = document.getElementById("infoText3");
     e4 = document.getElementById("pic");
+
+    if(textClass.isThere_1===true){
+        e1.style.display = "inline";    
+    }else{
+        e1.style.display = "none";    
+    }
+
+    if(textClass.isThere_2===true){
+        e2.style.display = "inline";    
+    }else{
+        e2.style.display = "none";    
+    }
     
+    if(textClass.isThere_3===true){
+        e3.style.display = "inline";    
+    }else{
+        e3.style.display = "none";    
+    }
+
     e1.innerText = textClass.text_1;
     e2.innerText = textClass.text_2;
     e3.innerText = textClass.text_3;
@@ -79,6 +123,24 @@ function animate(textClass){
     
     setTimeout(function() {
         
+        if(textClass.isThere_1===true){
+            e1.style.display = "inline";    
+        }else{
+            e1.style.display = "none";    
+        }
+
+        if(textClass.isThere_2===true){
+            e2.style.display = "inline";    
+        }else{
+            e2.style.display = "none";    
+        }
+
+        if(textClass.isThere_3===true){
+            e3.style.display = "inline";    
+        }else{
+            e3.style.display = "none";    
+        }
+
         e1.innerText = textClass.text_1;
         e2.innerText = textClass.text_2;
         e3.innerText = textClass.text_3;
