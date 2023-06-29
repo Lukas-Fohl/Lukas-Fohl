@@ -14,7 +14,7 @@ let _350 = new text(
     "Es gibt keinen eindeutigen Zeitpunkt wann die Stadt als diese entstand da sie sich aus Teilesiedlungen Zusammensetzte. Die erste Siedlung wurde um 350 v. Chr. Von den Griechen erbaut und Níkaia genannt",
     "",
     "",
-    "./Download.jpeg",
+    "./Download6.jpg",
     true,
     false,
     false);
@@ -23,22 +23,39 @@ let _154 = new text(
     "",
     "Nach  154 v. Chr. wurde die bereits bestehende Siedlungen aus griechischer Zeit von den Römern ausgebaut und erweitert welches eine 2. Siedlung namens Cemenelum hervorbrachte.  Dies Prägte das heutige Nizza erstmalig mit \„italienischem\“ Flair.",
     "",
-    "./Download.jpeg",
+    "./Download2.jpeg",
+    false,
+    true,
+    false);
+
+let _508 = new text(
+    "",
+    "Nizza fiel erstmalig an die Ostgoten und dann an Frankreich.  Die römische Siedlung Cemenelum wird aufgegeben zu Gunsten von  Níkaias.",
+    "",
+    "./Download3.jpeg",
     false,
     true,
     false);
 
 let _1388 = new text(
-    "3...",
-    "...",
-    "...",
-    "./Download.jpeg",
+    "In der Zeitspanne befand sich Nizza unter Regierung des Hauses Savoyen, welches eine Kulturell italienische Grafschaft war und Später zum Königreich Sardinien-Piemont wurde.",
+    "Auch die Amtssprache zu der Zeit war Italienisch. Die Blütezeit der italienischen Kunst und Architektur der Renaissance und des Barocks waren auch in Nizza stark vertreten.",
+    "",
+    "./Download4.jpeg",
+    true,
+    true,
+    false);
+
+let _16 = new text(
+    "Viele Gebäude, welche bis heute stehen, im Stil der Renaissance und des Barocks mit klassischen Säulen und Bögen wurden in Nizza errichtet.",
+    "Beispiele für die Renaissance-Architektur in Nizza sind der Palais de Justice und das Palais Rusca.",
+    "Beispiele für die Barocke-Architektur sind die Kathedrale Sainte-Réparate und die Chapelle de la Miséricorde. Vor allem die katholisch-italienische Kirche fand zu der Zeit einzug in Nizza.",
+    "./Download5.jpeg",
     true,
     true,
     true);
 
 function print(){
-    console.log("test");
     setText(_350);
 }
 
@@ -53,10 +70,20 @@ function callAnimation(year){
             animate(_154);
             btnColor("_154");
             break;
+
+        case '508':
+            animate(_508);
+            btnColor("_508");
+            break;
         
         case '1388':
             animate(_1388);
             btnColor("_1388");
+            break;
+
+        case '16':
+            animate(_16);
+            btnColor("_16");
             break;
         }
     }
@@ -148,7 +175,7 @@ function animate(textClass){
         e1.innerText = textClass.text_1;
         e2.innerText = textClass.text_2;
         e3.innerText = textClass.text_3;
-        console.log(`url:('${textClass.img_path}')`);
+
         e4.style.backgroundImage = `url(./${textClass.img_path})`;
         
         e1.style.animationName = "InfoText1Back";
