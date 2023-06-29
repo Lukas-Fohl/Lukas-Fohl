@@ -10,7 +10,7 @@ class text{
     }
 }
 
-let Text1 = new text(
+let _350 = new text(
     "Es gibt keinen eindeutigen Zeitpunkt wann die Stadt als diese entstand da sie sich aus Teilesiedlungen Zusammensetzte. Die erste Siedlung wurde um 350 v. Chr. Von den Griechen erbaut und Níkaia genannt",
     "",
     "",
@@ -19,7 +19,7 @@ let Text1 = new text(
     false,
     false);
 
-let Text2 = new text(
+let _154 = new text(
     "",
     "Nach  154 v. Chr. wurde die bereits bestehende Siedlungen aus griechischer Zeit von den Römern ausgebaut und erweitert welches eine 2. Siedlung namens Cemenelum hervorbrachte.  Dies Prägte das heutige Nizza erstmalig mit \„italienischem\“ Flair.",
     "",
@@ -28,7 +28,7 @@ let Text2 = new text(
     true,
     false);
 
-let Text3 = new text(
+let _1388 = new text(
     "3...",
     "...",
     "...",
@@ -39,33 +39,37 @@ let Text3 = new text(
 
 function print(){
     console.log("test");
-    setText(Text1);
+    setText(_350);
 }
 
-function to350(){
-    animate(Text1);
-    btnColor("_350");
-}
+function callAnimation(year){
+    switch(year){
+        case '350':
+            animate(_350);
+            btnColor("_350");
+            break;
 
-function to154(){
-    animate(Text2);
-    btnColor("_154");
-}
-
-function to1944(){
-    animate(Text3);
-    btnColor("_1944");
-}
-
-function btnColor(id_){
-    var buttons = document.getElementsByTagName('button');
-    for (let i = 0; i < buttons.length; i++) {
-        if(buttons[i].id == id_){
-            buttons[i].style.border = "3px solid #fa9f5a";
-        }else{
-            buttons[i].style.border = "0px solid #000000";
+        case '154':
+            animate(_154);
+            btnColor("_154");
+            break;
+        
+        case '1388':
+            animate(_1388);
+            btnColor("_1388");
+            break;
         }
     }
+    
+    function btnColor(id_){
+        var buttons = document.getElementsByTagName('button');
+        for (let i = 0; i < buttons.length; i++) {
+            if(buttons[i].id == id_){
+                buttons[i].style.border = "3px solid #fa9f5a";
+            }else{
+                buttons[i].style.border = "0px solid #000000";
+            }
+        }
 }
 
 function setText(textClass){

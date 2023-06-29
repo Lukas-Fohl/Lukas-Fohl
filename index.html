@@ -86,55 +86,37 @@
             display: table;
         }
 
-        .button-54 {
+        .timeLineButton {
             position: relative;
             height: 5%;
             width: 20%;
             border-radius: 25px;
             border: none;
-            background-color: #ffffff;
+            background-color: #f0ffff;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.3vw;
+            text-align: center;
+            color: #000000;
+            width: 40%;
+            height: 15%;
         }
 
         #_350{
             position: absolute;
             top: 10%;
             left: 27.5%;
-            width: 40%;
-            height: 15%;
-
-            font-family: "Open Sans", sans-serif;
-            font-size: 1.3vw;
-
-            text-align: center;
-            color: #000000;
         }
 
         #_154{
             position: absolute;
             top: 30%;
             left: 27.5%;
-            width: 40%;
-            height: 15%;
-
-            font-family: "Open Sans", sans-serif;
-            font-size: 1.3vw;
-
-            text-align: center;
-            color: #000000;
         }
 
-        #_1944{
+        #_1388{
             position: absolute;
             top: 50%;
-            left: 27.5%;
-            width: 40%;
-            height: 15%;
-
-            font-family: "Open Sans", sans-serif;
-            font-size: 1.3vw;
-
-            text-align: center;
-            color: #000000;
+            left: 27.5%;            
         }
 
         #infoText1{
@@ -239,9 +221,9 @@
 <body>
     <div id="mainBody">
         <div id="timeLine">
-            <button class="button-54" role="button" id="_350" onclick="to350()" style="background-color: #f0ffff; font-family: Open Sans, sans-serif; font-size: 130%; border: 3px solid #fa9f5a; ">350 v.chr</button>
-            <button class="button-54" role="button" id="_154" onclick="to154()" style="background-color: #f0ffff; font-family: Open Sans, sans-serif; font-size: 130%;">154 v.chr.</button>
-            <button class="button-54" role="button" id="_1944" onclick="to1944()" style="background-color: #f0ffff; font-family: Open Sans, sans-serif; font-size: 130%;">1388-1860</button>
+            <button class="timeLineButton" role="button" id="_350" onclick="callAnimation('350')" style="border: 3px solid #fa9f5a; ">350 v.chr</button>
+            <button class="timeLineButton" role="button" id="_154" onclick="callAnimation('154')" >154 v.chr.</button>
+            <button class="timeLineButton" role="button" id="_1388" onclick="callAnimation('1388')" >1388-1860</button>
         </div>
         <div id="contentBody">
             <p id="h1_" onClick="location.href='./detail.html'">NIZZA - Zeitstrahl</p>
