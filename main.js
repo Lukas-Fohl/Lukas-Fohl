@@ -140,13 +140,13 @@ function animate(textClass){
         buttons[i].disabled = true;
     }
     
-    e1.style.animationName = "InfoText1Hin";
+    e1.style.animationName = "InfoTextHin";
     e1.style.animationDuration = "1.05s";
     
-    e2.style.animationName = "InfoText2Hin";
+    e2.style.animationName = "InfoTextHin";
     e2.style.animationDuration = "1.05s";
     
-    e3.style.animationName = "InfoText3Hin";
+    e3.style.animationName = "InfoTextHin";
     e3.style.animationDuration = "1.05s";
     
     e4.style.animationName = "PicHin";
@@ -178,13 +178,13 @@ function animate(textClass){
 
         e4.style.backgroundImage = `url(./${textClass.img_path})`;
         
-        e1.style.animationName = "InfoText1Back";
+        e1.style.animationName = "InfoTextBack";
         e1.style.animationDuration = "1s";
 
-        e2.style.animationName = "InfoText2Back";
+        e2.style.animationName = "InfoTextBack";
         e2.style.animationDuration = "1s";
 
-        e3.style.animationName = "InfoText3Back";
+        e3.style.animationName = "InfoTextBack";
         e3.style.animationDuration = "1s";
 
         e4.style.animationName = "PicBack";
