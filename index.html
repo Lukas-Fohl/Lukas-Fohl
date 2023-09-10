@@ -87,7 +87,7 @@
         }
 
         .timeLineButton {
-            position: relative;
+            position: absolute;
             height: 5%;
             width: 20%;
             border-radius: 25px;
@@ -103,28 +103,31 @@
         }
 
         #_350{
-            position: absolute;
-            top: 2%;
+            top: 3%;
         }
 
         #_154{
-            position: absolute;
-            top: 17%;
+            top: 16.77%;
         }
 
         #_508{
-            position: absolute;
-            top: 32%;
+            top: 30.54%;
         }
 
         #_1388{
-            position: absolute;
-            top: 47%;
+            top: 44.31%;
         }
 
         #_16{
-            position: absolute;
-            top: 63%;
+            top: 58.08%;
+        }
+
+        #_today{
+            top: 71.85%;
+        }
+
+        #_fazit{
+            top: 85.62%;
         }
 
         #infoText1{
@@ -194,13 +197,15 @@
             <button class="timeLineButton" role="button" id="_508" onclick="callAnimation('508')" >508 n.chr.</button>
             <button class="timeLineButton" role="button" id="_1388" onclick="callAnimation('1388')" >1388-1860</button>
             <button class="timeLineButton" role="button" id="_16" onclick="callAnimation('16')" >16.-18. JH</button>
+            <button class="timeLineButton" role="button" id="_today" onclick="callAnimation('today')" >Heute</button>
+            <button class="timeLineButton" role="button" id="_fazit" onclick="callAnimation('fazit')" >Fazit</button>
         </div>
         <div id="contentBody">
             <p id="h1_" onClick="location.href='./detail.html'">NIZZA - Zeitstrahl</p>
             <p id="infoText1" class="text"></p>
             <p id="infoText2" class="text"></p>
             <p id="infoText3" class="text"></p>
-            <div id="pic" style="background-image: url(./Download.jpeg);"></div>
+            <img id= "pic" src="./Download6.jpg"></img>
         </div>
     </div>
     <script>

@@ -11,49 +11,74 @@ class text{
 }
 
 let _350 = new text(
-    "Es gibt keinen eindeutigen Zeitpunkt wann die Stadt als diese entstand da sie sich aus Teilesiedlungen Zusammensetzte. Die erste Siedlung wurde um 350 v. Chr. Von den Griechen erbaut und Níkaia genannt",
+    "Es gibt keinen eindeutigen Zeitpunkt, zu der die Stadt als diese entstand, da sie sich aus Teilsiedlungen zusammensetzte. Die erste Siedlung wurde um 350 v. Chr. von den Griechen erbaut und Níkaia genannt.",
     "",
     "",
     "./Download6.jpg",
     true,
     false,
-    false);
+    false
+);
 
 let _154 = new text(
     "",
-    "Nach  154 v. Chr. wurde die bereits bestehende Siedlungen aus griechischer Zeit von den Römern ausgebaut und erweitert welches eine 2. Siedlung namens Cemenelum hervorbrachte.  Dies Prägte das heutige Nizza erstmalig mit \„italienischem\“ Flair.",
+    "Nach 154 v. Chr. wurde die bereits bestehende Siedlung aus griechischer Zeit von den Römern ausgebaut und erweitert, welches eine 2. Siedlung namens Cemenelum hervorbrachte. Dies prägte das heutige Nizza erstmalig mit „italienischem“ Flair.",
     "",
     "./Download2.jpeg",
     false,
     true,
-    false);
+    false
+);
 
 let _508 = new text(
     "",
-    "Nizza fiel erstmalig an die Ostgoten und dann an Frankreich.  Die römische Siedlung Cemenelum wird aufgegeben zu Gunsten von  Níkaias.",
+    "Nizza fiel erstmalig an die Ostgoten und danach an Frankreich. Die römische Siedlung Cemenelum wurde zugunsten von Níkaias aufgegeben.",
     "",
     "./Download3.jpeg",
     false,
     true,
-    false);
+    false
+);
 
 let _1388 = new text(
-    "In der Zeitspanne befand sich Nizza unter Regierung des Hauses Savoyen, welches eine Kulturell italienische Grafschaft war und Später zum Königreich Sardinien-Piemont wurde.",
-    "Auch die Amtssprache zu der Zeit war Italienisch. Die Blütezeit der italienischen Kunst und Architektur der Renaissance und des Barocks waren auch in Nizza stark vertreten.",
+    "In dieser Zeitspanne befand sich Nizza unter Regierung des Hauses Savoyen, welches eine kulturell italienische Grafschaft war und später zum Königreich Sardinien-Piemont wurde.",
+    "Auch die Amtssprache zu dieser Zeit war Italienisch. Die Blütezeit der italienischen Kunst sowie Architektur der Renaissance und des Barocks waren auch in Nizza stark vertreten.",
     "",
     "./Download4.jpeg",
     true,
     true,
-    false);
+    false
+);
 
 let _16 = new text(
-    "Viele Gebäude, welche bis heute stehen, im Stil der Renaissance und des Barocks mit klassischen Säulen und Bögen wurden in Nizza errichtet.",
-    "Beispiele für die Renaissance-Architektur in Nizza sind der Palais de Justice und das Palais Rusca.",
-    "Beispiele für die Barocke-Architektur sind die Kathedrale Sainte-Réparate und die Chapelle de la Miséricorde. Vor allem die katholisch-italienische Kirche fand zu der Zeit einzug in Nizza.",
+    "Viele Gebäude im Stil der Renaissance und des Barocks mit klassischen Säulen und Bögen, welche in Nizza errichtet wurden, prägen bis heute das Stadtbild.",
+    "Beispiele für diese Renaissance-Architektur in Nizza sind der Palais de Justice und das Palais Rusca.",
+    "Die Kathedrale Sainte-Réparate und die Chapelle de la Miséricorde sind Beispiele für die Barock-Architektur. Vor allem die katholisch-italienische Kirche fand zu dieser Zeit Einzug in Nizza.",
     "./Download5.jpeg",
     true,
     true,
-    true);
+    true
+);
+
+let _today = new text(
+    "Wie bereits erwähnt, ist Nizza sowohl architektonisch als auch geschichtlich und kulturell stark mit Italien verbunden.",
+    "Dies lässt sich vor allem in der größtenteils unveränderten Altstadt erkennen: Die engen Gassen mit vielen kleinen Läden werden von kleineren Plätzen unterbrochen an denen katholische Kirchen im Stil der Renaissance und des Barock stehen, verleihen diesem Stadtteil einen italienischen Flair, welcher durch Eisstände und Pizzerien untermalt wird.",
+    "Nicht weit entfernt, am Place Masséna, wird die Moderne mit alten rot-gelben Gebäuden kombiniert, die von den Savoyen erbaut wurden, da die Straßenbahn, vom Boulevard kommend, mitten durch ihnen hindurch auf den neu gepflasterten Platz fährt.",
+    "./Download5.jpeg",
+    true,
+    true,
+    true
+);
+
+let _fazit = new text(
+    "Man spürt, dass Nizza seit der Antike von den verschiedensten Kulturen geprägt wurde, von denen die französische und italienische den meisten Einfluss hatten. So lässt sich sagen: Nizza – eine französische Küstenstadt unter einer italienischen Mittelmeersonne.",
+    "",
+    "",
+    "./Download5.jpeg",
+    true,
+    false,
+    false
+);
 
 function print(){
     setText(_350);
@@ -85,6 +110,14 @@ function callAnimation(year){
             animate(_16);
             btnColor("_16");
             break;
+        case 'today':
+            animate(_today)
+            btnColor("_today")
+            break;
+        case 'fazit':
+            animate(_fazit)
+            btnColor("_fazit")
+            break;
         }
     }
     
@@ -106,21 +139,21 @@ function setText(textClass){
     e4 = document.getElementById("pic");
 
     if(textClass.isThere_1===true){
-        e1.style.display = "inline";    
+        e1.style.display = "inline";
     }else{
-        e1.style.display = "none";    
+        e1.style.display = "none";
     }
 
     if(textClass.isThere_2===true){
-        e2.style.display = "inline";    
+        e2.style.display = "inline";
     }else{
-        e2.style.display = "none";    
+        e2.style.display = "none";
     }
     
     if(textClass.isThere_3===true){
-        e3.style.display = "inline";    
+        e3.style.display = "inline";
     }else{
-        e3.style.display = "none";    
+        e3.style.display = "none";
     }
 
     e1.innerText = textClass.text_1;
@@ -151,32 +184,34 @@ function animate(textClass){
     
     e4.style.animationName = "PicHin";
     e4.style.animationDuration = "1.05s";
+    console.log(e4);
     
     setTimeout(function() {
         
         if(textClass.isThere_1===true){
-            e1.style.display = "inline";    
+            e1.style.display = "inline";
         }else{
-            e1.style.display = "none";    
+            e1.style.display = "none";
         }
 
         if(textClass.isThere_2===true){
-            e2.style.display = "inline";    
+            e2.style.display = "inline";
         }else{
-            e2.style.display = "none";    
+            e2.style.display = "none";
         }
 
         if(textClass.isThere_3===true){
-            e3.style.display = "inline";    
+            e3.style.display = "inline";
         }else{
-            e3.style.display = "none";    
+            e3.style.display = "none";
         }
 
         e1.innerText = textClass.text_1;
         e2.innerText = textClass.text_2;
         e3.innerText = textClass.text_3;
 
-        e4.style.backgroundImage = `url(./${textClass.img_path})`;
+        //e4.style.backgroundImage = `url(./${textClass.img_path})`;
+        e4.src = `./${textClass.img_path}`;
         
         e1.style.animationName = "InfoTextBack";
         e1.style.animationDuration = "1s";
