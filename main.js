@@ -14,7 +14,7 @@ let _350 = new text(
     "Es gibt keinen eindeutigen Zeitpunkt, zu der die Stadt als diese entstand, da sie sich aus Teilsiedlungen zusammensetzte. Die erste Siedlung wurde um 350 v. Chr. von den Griechen erbaut und Níkaia genannt.",
     "",
     "",
-    "./Download6.jpg",
+    "./IMG-20230705-WA0047.jpg",
     true,
     false,
     false
@@ -44,7 +44,7 @@ let _1388 = new text(
     "In dieser Zeitspanne befand sich Nizza unter Regierung des Hauses Savoyen, welches eine kulturell italienische Grafschaft war und später zum Königreich Sardinien-Piemont wurde.",
     "Auch die Amtssprache zu dieser Zeit war Italienisch. Die Blütezeit der italienischen Kunst sowie Architektur der Renaissance und des Barocks waren auch in Nizza stark vertreten.",
     "",
-    "./Download4.jpeg",
+    "./220px-Plan-Nice-1624.jpg",
     true,
     true,
     false
@@ -54,7 +54,7 @@ let _16 = new text(
     "Viele Gebäude im Stil der Renaissance und des Barocks mit klassischen Säulen und Bögen, welche in Nizza errichtet wurden, prägen bis heute das Stadtbild.",
     "Beispiele für diese Renaissance-Architektur in Nizza sind der Palais de Justice und das Palais Rusca.",
     "Die Kathedrale Sainte-Réparate und die Chapelle de la Miséricorde sind Beispiele für die Barock-Architektur. Vor allem die katholisch-italienische Kirche fand zu dieser Zeit Einzug in Nizza.",
-    "./Download5.jpeg",
+    "./IMG-20230705-WA0055.jpg",
     true,
     true,
     true
@@ -64,7 +64,7 @@ let _today = new text(
     "Wie bereits erwähnt, ist Nizza sowohl architektonisch als auch geschichtlich und kulturell stark mit Italien verbunden.",
     "Dies lässt sich vor allem in der größtenteils unveränderten Altstadt erkennen: Die engen Gassen mit vielen kleinen Läden werden von kleineren Plätzen unterbrochen an denen katholische Kirchen im Stil der Renaissance und des Barock stehen, verleihen diesem Stadtteil einen italienischen Flair, welcher durch Eisstände und Pizzerien untermalt wird.",
     "Nicht weit entfernt, am Place Masséna, wird die Moderne mit alten rot-gelben Gebäuden kombiniert, die von den Savoyen erbaut wurden, da die Straßenbahn, vom Boulevard kommend, mitten durch ihnen hindurch auf den neu gepflasterten Platz fährt.",
-    "./Download5.jpeg",
+    "./IMG-20230705-WA0051.jpg",
     true,
     true,
     true
@@ -74,7 +74,7 @@ let _fazit = new text(
     "Man spürt, dass Nizza seit der Antike von den verschiedensten Kulturen geprägt wurde, von denen die französische und italienische den meisten Einfluss hatten. So lässt sich sagen: Nizza – eine französische Küstenstadt unter einer italienischen Mittelmeersonne.",
     "",
     "",
-    "./Download5.jpeg",
+    "./IMG-20230705-WA0057.jpg",
     true,
     false,
     false
