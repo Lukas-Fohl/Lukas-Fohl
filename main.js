@@ -214,16 +214,16 @@ function animate(textClass){
         e4.src = `./${textClass.img_path}`;
         
         e1.style.animationName = "InfoTextBack";
-        e1.style.animationDuration = "1s";
+        e1.style.animationDuration = "1.2s";
 
         e2.style.animationName = "InfoTextBack";
-        e2.style.animationDuration = "1s";
+        e2.style.animationDuration = "1.2s";
 
         e3.style.animationName = "InfoTextBack";
-        e3.style.animationDuration = "1s";
+        e3.style.animationDuration = "1.2s";
 
         e4.style.animationName = "PicBack";
-        e4.style.animationDuration = "1s";
+        e4.style.animationDuration = "1.2s";
 
         setTimeout(function() {
 
