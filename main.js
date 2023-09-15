@@ -205,13 +205,11 @@ function animate(textClass){
             e3.style.display = "none";
         }
 
+        e4.src = `./${textClass.img_path}`;
         e1.innerText = textClass.text_1;
         e2.innerText = textClass.text_2;
         e3.innerText = textClass.text_3;
 
-        //e4.style.backgroundImage = `url(./${textClass.img_path})`;
-        e4.src = `./${textClass.img_path}`;
-        
         e1.style.animationName = "InfoTextBack";
         e1.style.animationDuration = "1.2s";
 
