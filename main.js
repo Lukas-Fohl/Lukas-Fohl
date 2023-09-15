@@ -24,19 +24,19 @@ let _154 = new text(
     "",
     "Nach 154 v. Chr. wurde die bereits bestehende Siedlung aus griechischer Zeit von den Römern ausgebaut und erweitert, welches eine 2. Siedlung namens Cemenelum hervorbrachte. Dies prägte das heutige Nizza erstmalig mit „italienischem“ Flair.",
     "",
-    "./Download2.jpeg",
+    "./Decumanus_Cemenelum.jpg",
     false,
     true,
     false
 );
 
 let _508 = new text(
-    "",
     "Nizza fiel erstmalig an die Ostgoten und danach an Frankreich. Die römische Siedlung Cemenelum wurde zugunsten von Níkaias aufgegeben.",
     "",
-    "./Download3.jpeg",
-    false,
+    "",
+    "./AtHistEur500.jpg",
     true,
+    false,
     false
 );
 

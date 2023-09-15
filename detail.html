@@ -15,26 +15,40 @@
     }
 
     p {
-        font-family: "Open Sans", sans-serif;
-        font-size: 130%;
+        font-family: Helvetica;
+        font-size: 16pt;
     }
 
     h1 {
-        font-family: "Open Sans", sans-serif;
-        font-size: 200%;
-
+        font-family: Helvetica;
+        font-size: 1.8vw;
         border-bottom: 2px solid black;
-
-        cursor: pointer;
     }
 
     h2 {
-        font-family: "Open Sans", sans-serif;
-        font-size: 150%;
+        font-family: Helvetica;
+        font-size: 1.4vw;
+    }
+
+    .back-btn{
+        cursor: pointer;
+        position: absolute;
+        left: 2em;
+        top: 2em;
+        height: 6em;
+        width: 6em;
+        font-size: 0.9vw;
+        border-radius: 25px;
+        border: 3px solid #000;
+        background-color: #F0FFFF;
+        padding: 20px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2), -2px 2px 4px rgba(0, 0, 0, 0.2), 2px -2px 4px rgba(0, 0, 0, 0.2);
+        font-family: Helvetica;
     }
 </style>
 
 <body>
+    <button class="back-btn" onClick="location.href='./index.html'">back</button>
     <ul style="list-style-type: none">
         <li>
             <h1 onClick="location.href='./index.html'">Geschichte Nizza unter italienischen Einfluss</h1>
