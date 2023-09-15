@@ -248,6 +248,6 @@ function animate(textClass){
                 buttons[i].disabled = false;
             }
 
-        }, 500);
+        }, 1000);
     }, 1005);
 }
