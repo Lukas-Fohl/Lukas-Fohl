@@ -80,7 +80,7 @@ let _fazit = new text(
     false
 );
 
-function print(){
+function init(){
     setText(_350);
 }
 
