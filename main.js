@@ -185,7 +185,11 @@ function animate(textClass){
     e4.style.animationName = "PicHin";
     e4.style.animationDuration = "1.05s";
     
+    
     setTimeout(function() {
+        setTimeout(function() {
+            e4.src = `./${textClass.img_path}`;
+        }, 30);
         
         if(textClass.isThere_1===true){
             e1.style.display = "inline";
@@ -205,7 +209,7 @@ function animate(textClass){
             e3.style.display = "none";
         }
 
-        e4.src = `./${textClass.img_path}`;
+        //e4.src = `./${textClass.img_path}`;
         e1.innerText = textClass.text_1;
         e2.innerText = textClass.text_2;
         e3.innerText = textClass.text_3;
