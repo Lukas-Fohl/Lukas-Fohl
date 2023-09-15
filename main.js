@@ -184,7 +184,6 @@ function animate(textClass){
     
     e4.style.animationName = "PicHin";
     e4.style.animationDuration = "1.05s";
-    console.log(e4);
     
     setTimeout(function() {
         
@@ -249,6 +248,6 @@ function animate(textClass){
                 buttons[i].disabled = false;
             }
 
-        }, 1200);
+        }, 500);
     }, 1005);
 }
