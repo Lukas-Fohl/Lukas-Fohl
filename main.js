@@ -10,113 +10,70 @@ class text{
     }
 }
 
-let _350 = new text(
-    "Es gibt keinen eindeutigen Zeitpunkt, zu der die Stadt als diese entstand, da sie sich aus Teilsiedlungen zusammensetzte. Die erste Siedlung wurde um 350 v. Chr. von den Griechen erbaut und Níkaia genannt.",
+let _Jesus1 = new text(
+    "• Jesus Auffassung und Verkündigung der Köngisherrschaft: \n    • Königsherrschaft Gottes als Zukünftiges \n       Ereignis jedoch schon in der \n       Gegenwart angebrochen \n    • Gemeinschaft zwischen Mensch und \n       Gott wird mit Anbruch des 2. Äons \n       wiederhergestellt --> Prozess der \n       Wiederherstellung",
     "",
     "",
-    "./IMG-20230705-WA0047.jpg",
+    "./Download.jpeg",
     true,
     false,
     false
 );
 
-let _154 = new text(
-    "",
-    "Nach 154 v. Chr. wurde die bereits bestehende Siedlung aus griechischer Zeit von den Römern ausgebaut und erweitert, welches eine 2. Siedlung namens Cemenelum hervorbrachte. Dies prägte das heutige Nizza erstmalig mit „italienischem“ Flair.",
-    "",
-    "./Decumanus_Cemenelum.jpg",
-    false,
-    true,
-    false
-);
-
-let _508 = new text(
-    "Nizza fiel erstmalig an die Ostgoten und danach an Frankreich. Die römische Siedlung Cemenelum wurde zugunsten von Níkaias aufgegeben.",
-    "",
-    "",
-    "./AtHistEur500.jpg",
-    true,
-    false,
-    false
-);
-
-let _1388 = new text(
-    "In dieser Zeitspanne befand sich Nizza unter Regierung des Hauses Savoyen, welches eine kulturell italienische Grafschaft war und später zum Königreich Sardinien-Piemont wurde.",
-    "Auch die Amtssprache zu dieser Zeit war Italienisch. Die Blütezeit der italienischen Kunst sowie Architektur der Renaissance und des Barocks waren auch in Nizza stark vertreten.",
-    "",
-    "./220px-Plan-Nice-1624.jpg",
-    true,
-    true,
-    false
-);
-
-let _16 = new text(
-    "Viele Gebäude im Stil der Renaissance und des Barocks mit klassischen Säulen und Bögen, welche in Nizza errichtet wurden, prägen bis heute das Stadtbild.",
-    "Beispiele für diese Renaissance-Architektur in Nizza sind der Palais de Justice und das Palais Rusca.",
-    "Die Kathedrale Sainte-Réparate und die Chapelle de la Miséricorde sind Beispiele für die Barock-Architektur. Vor allem die katholisch-italienische Kirche fand zu dieser Zeit Einzug in Nizza.",
-    "./IMG-20230705-WA0055.jpg",
+let _Jesus2 = new text(
+    "• Königsherrschaft wird ins 1. und 2. on geteilt \n• Mit Jesus beginnt das 2. Äon \n      -> Die Vollendung des Heils, \n     der Gottesherrschaft, steht noch aus\n     (Wunder von Jesus sind Zeugnis)",
+    "Gegenwärtiges Äon:\n    • Gott wird Herr über Israel \n       -> Herrscher verborgen \n    • Volk Gottes ist in Knechtschaft \n       -> Güte und \"Heil\" Gottes wird \n       unterdrückt",
+    "Zukünftiges Äon:\n    • Anbruch von neuem Äon befreit Volk Israels \n    • Ganze Herrlichkeit wird offenbart und erstreckt sich \n       über die ganze Welt \n    • Königsherrschaft Gottes wird Allumfassend",
+    "./Download (1).jpeg",
     true,
     true,
     true
 );
 
-let _today = new text(
-    "Wie bereits erwähnt, ist Nizza sowohl architektonisch als auch geschichtlich und kulturell stark mit Italien verbunden.",
-    "Dies lässt sich vor allem in der größtenteils unveränderten Altstadt erkennen: Die engen Gassen mit vielen kleinen Läden werden von kleineren Plätzen unterbrochen an denen katholische Kirchen im Stil der Renaissance und des Barock stehen, verleihen diesem Stadtteil einen italienischen Flair, welcher durch Eisstände und Pizzerien untermalt wird.",
-    "Nicht weit entfernt, am Place Masséna, wird die Moderne mit alten rot-gelben Gebäuden kombiniert, die von den Savoyen erbaut wurden, da die Straßenbahn, vom Boulevard kommend, mitten durch ihnen hindurch auf den neu gepflasterten Platz fährt.",
-    "./IMG-20230705-WA0051.jpg",
+let _Jesus3 = new text(
+    "𝗘𝗿𝗻𝘁𝗲: Die Stunde der Ernte ist gekommen. Sie ist reif(Mt 9,37 par.)",
+    "𝗡𝗲𝘂𝗲𝗿 𝗪𝗲𝗶𝗻: Der neue Wein darf nicht in alte Schläuche gegossen werden; er zerriss sie(Mk 2,22 par.)",
+    "𝗡𝗲𝘂𝗲𝘀 𝗧𝘂𝗰𝗵: Niemand näht ein Stück ungewalktes neues Ruch auf ein altes Kleid; das eingesetzte neue Stück riss weg (Mk 2,21)",
+    "./2017_05_Bergpredikt_Tielbild_Bloch-SermonOnTheMoun_PD.jpg",
     true,
     true,
     true
 );
 
-let _fazit = new text(
-    "Man spürt, dass Nizza seit der Antike von den verschiedensten Kulturen geprägt wurde, von denen die französische und italienische den meisten Einfluss hatten. So lässt sich sagen: Nizza – eine französische Küstenstadt unter einer italienischen Mittelmeersonne.",
-    "",
-    "",
-    "./IMG-20230705-WA0057.jpg",
+let _Jesus4 = new text(
+    "● endgültiges Heilshandeln Gottes ist mit neuem Äon angebrochen \n ● bringt sowohl Segen als auch Verderben \n → Schuld wird erst durch Gnade Gottes zur Schuld \n → größtes Heil bringt gleichzeitig größtes Unheil",
+    "● Aufruf von Jesus zur Umkehr → Wendung zu Gott und Gottesgericht für begrenztes Heilsangebot \n ● Umkehr soll nicht aus Angst vor Gottesgericht erfolgen, sondern aus Erfahrung der Güte und Liebe Gottes \n→ an Gnade entsteht Umkehr",
+    "● neues Gottesverhältnis mit neuem Gottesrecht verbunden \n → ohne unbedingten Einsatz und unbedingte Entschlossenheit in der Beziehung zu Gott und Mitmenschen ist Heilsanspruch verloren",
+    "./Conversion_of_Saint_Paul_(Michelangelo_Buonarroti).jpg",
     true,
-    false,
-    false
+    true,
+    true
 );
 
 function init(){
-    setText(_350);
+    setText(_Jesus1);
 }
 
 function callAnimation(year){
     switch(year){
-        case '350':
-            animate(_350);
-            btnColor("_350");
+        case 'Jesus1':
+            animate(_Jesus1);
+            btnColor("_Jesus1");
             break;
 
-        case '154':
-            animate(_154);
-            btnColor("_154");
+        case 'Jesus2':
+            animate(_Jesus2);
+            btnColor("_Jesus2");
             break;
 
-        case '508':
-            animate(_508);
-            btnColor("_508");
+        case 'Jesus3':
+            animate(_Jesus3);
+            btnColor("_Jesus3");
             break;
         
-        case '1388':
-            animate(_1388);
-            btnColor("_1388");
-            break;
-
-        case '16':
-            animate(_16);
-            btnColor("_16");
-            break;
-        case 'today':
-            animate(_today)
-            btnColor("_today")
-            break;
-        case 'fazit':
-            animate(_fazit)
-            btnColor("_fazit")
+        case 'Jesus4':
+            animate(_Jesus4);
+            btnColor("_Jesus4");
             break;
         }
     }
